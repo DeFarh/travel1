@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0 auto;
     height: 100%;
@@ -21,6 +22,20 @@ html, body {
     background-color: rgba(242, 119, 92, 0.7);
     height: 90px;
     box-shadow: 0px 4px 4px 0 rgba(13, 96, 111, 0.5);
+}
+
+#main-logo{
+    width: 216px; 
+    height: 31px; 
+    margin: 25px 0 34px 120px;
+}
+
+#mobile-icon{
+    display: none;
+}
+
+.mobile-header{
+    display: none;
 }
 
 .head, button{
@@ -181,6 +196,20 @@ h2{
     margin-bottom: 24px;
 }
 
+#spain{
+    background-image: url(../img/spain.jpg); 
+    margin-right: 60px;
+}
+
+#japan{
+    background-image: url(../img/japan.jpg); 
+    margin-right: 60px;
+}
+
+#usa{
+    background-image: url(../img/usa.jpg);
+}
+
 .destination-pic{
     width: 800px;
     height: 800px;
@@ -230,6 +259,10 @@ h2{
     box-shadow: 0 0 3px 0 rgba(13, 96, 111, 0.08);
     box-sizing: border-box;
     padding: 10px 32px;
+}
+
+#arrow-right{
+    vertical-align: middle;
 }
 
 .button-more span{
@@ -297,6 +330,10 @@ h2{
     margin-top: 10px;
 }
 
+#see-more{
+    vertical-align: middle;
+}
+
 footer{
     margin-top: 14px;
     display: flex;
@@ -319,4 +356,12 @@ footer{
 
 .soc-links{
     margin-right: 60px;
+}
+
+#insta{
+    margin-right: 20px;
+}
+
+#video{
+    margin-right: 20px;
 }

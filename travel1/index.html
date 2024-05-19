@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
@@ -16,7 +17,11 @@
     <main class="main_page">
         <div class="upper-part">
         <header class="head">
-            <img src="img/logo.png" alt="Travel Portal logo" style="width: 216px; height: 31px; margin: 25px 0 34px 120px">
+            <img src="img/logo.png" alt="Travel Portal logo" id="main-logo">
+            <div class="mobile-header">
+                <img src="img/icon.svg" alt="Mobile icon" id="mobile-icon">
+                <img src="img/burger-icon.svg" alt="Burger icon" id="burger-icon">
+            </div>
             <nav class="navigation">
                 <ul class="head-links">
                     <li>How it Works</li>
@@ -55,9 +60,9 @@
         <section class="destinations">
             <h2>POPULAR DESTINATIONS</h2>
             <div class="slider">
-                <div class="destination-pic" id="spain" style="background-image: url(../travel1/img/spain.jpg); margin-right: 60px;"><span>SPAIN</span></div>
-                <div class="destination-pic" id="japan" style="background-image: url(../travel1/img/japan.jpg); margin-right: 60px;"><span>JAPAN</span></div>
-                <div class="destination-pic" id="usa" style="background-image: url(../travel1/img/usa.jpg);"><span>USA</span></div>
+                <div class="destination-pic" id="spain"><span>SPAIN</span></div>
+                <div class="destination-pic" id="japan"><span>JAPAN</span></div>
+                <div class="destination-pic" id="usa"><span>USA</span></div>
             </div>
             <div class="pagination">
                 <div id="circle1"></div>
@@ -65,7 +70,7 @@
                 <div id="circle1"></div>
             </div>
             <button class="button-more">
-                <img src="img/arrow-right.svg" alt="arrow-right" style="vertical-align: middle;"><span>Find More</span>
+                <img src="img/arrow-right.svg" alt="arrow-right" id="arrow-right"><span>Find More</span>
             </button>
         </section>
         <section class="stories">
@@ -101,14 +106,14 @@
                         </div>
                     </div>
                     <button class="button-more">
-                        <img src="img/arrow-right.svg" alt="arrow-right" style="vertical-align: middle;"><span>See More</span>
+                        <img src="img/arrow-right.svg" alt="arrow-right" id="see-more"><span>See More</span>
                     </button>
                 </div>
                 <footer>
                     <div class="empty1"></div>
                     <div class="rights">All Rights Reserved © Travel Portal</div>
                     <div class="empty2"></div>
-                    <div class="soc-links"><img src="img/instagram.svg" alt="insta" style="margin-right: 20px;"><img src="img/video.svg" alt="video" style="margin-right: 20px;"><img src="img/twitter.svg" alt="twitter"></div>
+                    <div class="soc-links"><img src="img/instagram.svg" alt="insta" id="insta"><img src="img/video.svg" alt="video" id="video"><img src="img/twitter.svg" alt="twitter"></div>
                 </footer>
             </div>
         </section>
