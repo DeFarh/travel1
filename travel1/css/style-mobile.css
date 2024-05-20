@@ -1,0 +1,390 @@
+@media(max-width: 390px){
+    .main_page{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .upper-part{
+        height: 27.89vh;
+        background-image: linear-gradient(rgba(13, 96, 111, 0.35), rgba(13, 96, 111, 0)), url(../img/garrett-parker-mobile.jpg);
+    }
+
+    .head{
+        background-color: transparent;
+        box-shadow: none;
+        height: 10vh;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    #main-logo{
+        display: none;
+    }
+    
+    .navigation{
+        display: none;
+    }
+
+    .mobile-header{
+        display: flex;
+        margin: 4.78vh 4.1vw 4.1vw;
+    }
+
+    #mobile-icon{
+        display: inline-block;
+        margin-right: 74.36vw;
+        height: 3.33vh;
+        width: 7.44vw;
+    }
+
+    #burger-icon{
+        position: relative;
+        height: 3.89vh;
+        width: 8.97vw;
+        bottom: 0.5vh;
+    }
+
+    .login{
+        display: none;
+    }
+    
+    .preview{
+        color: white;    
+        width: 100%;
+        margin: 0;
+        font-family: "Aleo", serif;
+    }
+
+    .preview h1{
+        display: none;
+    }
+
+    .preview p{
+        display: none;
+    }
+
+    .search-bar{
+        width: 92.31vw;
+        height: 5.33vh;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 4.1vw;
+        margin: 7.44vh 3.85vw 3.85vw;
+    }
+
+    .search-bar input{
+        box-sizing: border-box;
+        width: 57.95vw;
+        height: 1.24vh;
+        margin: 1.86vh 4.22vw 2.3vh 4.24vw;
+        border: none;
+        background: none;
+        outline: none;
+        overflow: visible;
+    }
+
+    .search-bar input{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .search-bar input::placeholder, .search-bar input {
+        overflow: visible;
+        font-family: "Aleo", serif;
+        font-weight: 400;
+        line-height: 1.87vh;
+        font-size: 1.156vh;
+        font-style: italic;
+        padding: 0;
+        color: rgba(242, 120, 92, 1);
+    }
+
+    .search-bar button{
+        box-sizing: border-box;
+        width: 23.59vw;
+        height: 3.33vh;
+        background-color: rgba(13, 96, 111, 1);
+        border: none;
+        border-radius: 10px;
+        font-family: "Red Hat Text", sans-serif;
+        font-size: 1.006vh;
+        line-height: 1.62vh;
+        font-weight: 500;
+        padding: 0.83vh 2.31vw;
+        margin: 1vh 0;
+    }
+
+    .steps{
+        margin: 2.22vh 3.85vw 3.85vw;
+    }
+
+    h2{
+        font-family: "Red Hat Text", sans-serif;
+        font-weight: 500;
+        font-size: 1.56vh;
+        color: rgba(242, 120, 92, 1);
+        margin: 0;
+        text-align: center;
+    }
+
+    .icons-block{
+        margin-top: 2.22vh;
+        display: flex;
+        font-family: "Aleo", serif;
+        font-weight: 400;
+        font-size: 1.11vh;
+        line-height: 1.33vh;
+        color: rgba(13, 96, 111, 1);
+        justify-content: space-between;
+    }
+
+    .icon{
+        height: 7.78vh;
+        width: 17.95vw;
+        display: block;
+        margin: 0;
+        margin-bottom: 2.11vh;
+    }
+
+    #icon-one{
+        width: 20vw;
+    }
+    
+    #icon-two{
+        position: static;
+    }
+
+    #calendar-icon{
+        margin: 0 auto;
+        margin-bottom: 2.11vh;
+    }
+
+    #icon-three{
+        width: 20vw;
+    }
+
+    .destinations{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    .slider{
+        display: block;
+        overflow: hidden;
+        margin: 2.22vh 3.85vw 1.11vh 3.85vw;
+        width: 92.31vw;
+        height: 23.33vh;
+        position: static;
+        background: url(../img/spain-mobile.jpg);
+        border-radius: 16px;
+    }
+
+    #spain{
+        display: none;
+    }
+    
+    #japan{
+        display: none;
+    }
+    
+    #usa{
+        display: none;
+    }
+
+    .destination-pic{
+        display: none;
+    }
+
+    #spain-span{
+        display: block;
+        font-size: 2.22vh;
+        line-height: 2.94vh;
+        margin-top: 0.89vh;
+        margin-left: 3.85vw;
+    }
+
+    #japan-span{
+        display: none;
+    }
+
+    #usa-span{
+        display:none;
+    }
+
+    .pagination{
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        bottom: 3.33vh;
+    }
+    
+    #circle1{
+        height: 0.89vh;
+        width: 2.05vw;
+        border-radius: 50%;
+        background-color: rgba(242, 120, 92, 1);
+    }
+    
+    #circle2{
+        height: 0.89vh;
+        width: 2.05vw;
+        border-radius: 50%;
+        background-color: rgba(242, 120, 92, 0.5);
+        margin-left: 1.54vw;
+        margin-right: 1.54vw;
+    }
+
+    #circle3{
+        height: 0.89vh;
+        width: 2.05vw;
+        border-radius: 50%;
+        background-color: rgba(242, 120, 92, 0.5);
+    }
+
+    .two-arrows{
+        display: flex;
+        width: 92.31vw;
+        justify-content: space-between;
+    }
+
+    #arrow-trans{
+        display: inline-block;
+        height: 3.33vh;
+        width: 7.69vw;
+        margin-top: 6.22vh;
+    }
+    
+    #arrow-bold{
+        display: inline-block;
+        height: 3.33vh;
+        width: 7.69vw;
+        margin-top: 6.22vh;
+    }
+
+    .button-more{
+        margin: 0 auto;
+        width: 23.59vw;
+        height: 3.33vh;
+        background-color: rgba(13, 96, 111, 1);
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 2px 3px 0 rgba(13, 96, 111, 0.16);
+        box-shadow: 0 0 3px 0 rgba(13, 96, 111, 0.08);
+        box-sizing: border-box;
+        padding: 0;
+        margin-bottom: 2.22vh;
+    }
+    
+    #arrow-right{
+        height: 1.11vh;
+        width: 2.56vw;
+        vertical-align: middle;
+    }
+
+    .button-more span{
+        font-family: "Red Hat Text", sans-serif;
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.22vh;
+        font-weight: 500;
+        line-height: 1.62vh;
+        vertical-align: middle;
+        margin-left: 1.54vw;
+    }
+
+    .stories{
+        margin-top: 0;
+    }
+
+    .bottom-part{
+        height: 77vh;
+        background-image: url(../img/sea-mobile.jpg);
+        margin-top: 1.11vh;
+    }
+
+    .article{
+        max-height: 14.74vh;
+    }
+
+    .article-blocks{
+        height: 69.78vh;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 1.11vh 3.85vw 0;
+    }
+
+    #article-pic{
+        display: none;
+    }
+
+    #article-pic-mobile{
+        display: block;
+        height: 14.44vh;
+        width: 39.74vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 4px 0 rgba(13, 96, 111, 1);
+    }
+
+    .text-block{
+        margin-left: 2.56vw;
+        color: rgba(13, 96, 111, 1);
+        font-family: "Aleo", serif;
+        font-weight: 400;
+        font-size: 0.93vh;
+        line-height: 1vh;
+        overflow: scroll;
+    }
+
+    .text-block h3{
+        margin: 0 0 1.11vh 0;
+        font-weight: 700;
+        font-size: 1.22vh;
+        line-height: 1.47vh;
+    }
+
+    .article-blocks button{
+        margin-top: 0.11vh;
+    }
+
+    #button-more{
+        height: 10.22vh;
+    }
+
+    footer{
+        margin-top: 1.67vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Red Hat Text", sans-serif;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .rights{
+        display: none;
+    }
+    
+    .empty1{
+        display: none;
+    }
+    
+    .empty2{
+        display: none;
+    }
+    
+    .soc-links{
+        display: flex;
+        width: 36.14vw;
+        margin-left: 33.08vw;
+        justify-content: space-between;
+    }
+    
+    #insta{
+        margin-right: 0;
+    }
+    
+    #video{
+        margin-right: 0;
+    }
+}
